@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishpo Photo Studios & Videos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603320065725-1c98572f16a6?auto=format&fit=crop&w=1350&q=80') center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .gallery, .calendar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-box, .gallery img {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .contact {
+      background-color: #f4f4f4;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .socials a {
+      margin: 0 10px;
+      color: white;
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Krishpo Photo Studios & Videos</h1>
+  <p>Weddings • Engagements • Portraits • Candid</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#calendar">Calendar</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h2>Capturing Moments, Creating Memories</h2>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Welcome to Krishpo Photo Studios & Videos. We specialize in Wedding, Engagement, Portrait, and Candid photography. With years of experience, creativity, and passion, we ensure every moment is frozen with style and soul. Let us be a part of your story.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>Wedding Photography</h3>
+      <p>Timeless captures of your special day with elegance and grace.</p>
+    </div>
+    <div class="service-box">
+      <h3>Engagement Shoots</h3>
+      <p>Creative and romantic sessions before your big day.</p>
+    </div>
+    <div class="service-box">
+      <h3>Portraits</h3>
+      <p>Professional solo and family portraits with perfect lighting.</p>
+    </div>
+    <div class="service-box">
+      <h3>Candid Moments</h3>
+      <p>Unscripted, genuine moments that tell your story naturally.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://source.unsplash.com/400x300/?wedding" alt="wedding">
+    <img src="https://source.unsplash.com/400x300/?engagement" alt="engagement">
+    <img src="https://source.unsplash.com/400x300/?portrait" alt="portrait">
+    <img src="https://source.unsplash.com/400x300/?candid" alt="candid">
+  </div>
+</section>
+
+<section id="calendar">
+  <h2>Book Your Date</h2>
+  <div class="calendar">
+    <iframe src="https://calendar.google.com/calendar/embed?src=en.indian%23holiday%40group.v.calendar.google.com&ctz=Asia%2FCalcutta" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <p><strong>Phone:</strong> <a href="tel:+919841109994">9841109994</a></p>
+    <p><strong>Email:</strong> <a href="mailto:krishpo@rediffmail.com">krishpo@rediffmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/rajkumar_krishpo" target="_blank">@rajkumar_krishpo</a></p>
+    <p><strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">Rajkumar Ponnusamy</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Krishpo Photo Studios & Videos. All rights reserved.</p>
+  <div class="socials">
+    <a href="https://instagram.com/rajkumar_krishpo" target="_blank">📸</a>
+    <a href="https://facebook.com" target="_blank">📘</a>
+  </div>
+</footer>
+
+</body>
+</html>
